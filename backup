@@ -6,7 +6,10 @@
 # The script will name the backup files {$HOSTNAME}.{YYYYmmdd}.img
 # When the script deletes backups older then the specified retention
 # it will only delete files with it's own $HOSTNAME.
-#
+
+# Criar directorio /mnt/backup
+# Criar scrip para verificar existencia de directorio
+mkdir /mnt/backup
 
 # Declare vars and set standard values
 backup_path=/mnt/backup
