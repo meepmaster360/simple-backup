@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Usage: system_backup.sh {path} {days of retention}
 #
 # Below you can set the default values if no command line args are sent.
